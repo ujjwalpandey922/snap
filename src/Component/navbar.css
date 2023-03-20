@@ -1,0 +1,73 @@
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.Navbar {
+  display: flex;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  align-items: center;
+
+  justify-content: space-between;
+
+  padding: 1rem;
+
+  background-color: teal;
+
+  color: #fff;
+}
+
+/* LOGO */
+
+.logo {
+  font-size: 32px;
+}
+
+/* NAVBAR MENU */
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
+.menu li:hover {
+  background-color: #4c9e9e;
+
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+/*-----------------================ how to add line on hover =================-----------------------*/
+.menu li {
+  padding: 5px 14px;
+  position: relative;
+}
+.menu li > span::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 5px;
+  padding-right: 5px;
+  background-color: black;
+  left: 0;
+  bottom: -0.5rem;
+  transform: scaleX(0);
+  transition: transform 0.5s;
+  transform-origin: right;
+}
+.menu li > span:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+/*-----------------================ how to add line on hover =================-----------------------*/

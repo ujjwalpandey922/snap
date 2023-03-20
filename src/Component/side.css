@@ -1,0 +1,28 @@
+.side {
+  width: 15rem;
+  height: 86vh;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.906);
+  color: aliceblue;
+  overflow-y: auto;
+}
+.sideContent {
+  padding: 1rem;
+}
+.singlebox {
+  border: 1px solid whitesmoke;
+  border-radius: 10px;
+  padding: 5px;
+  cursor: pointer;
+  margin: 1rem 0;
+}
+.singlebox:hover {
+  transition: 0.5s;
+  background-color: whitesmoke;
+  color: black;
+}
+
+a {
+  text-decoration: none !important;
+  color: inherit !important;
+}

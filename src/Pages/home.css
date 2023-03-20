@@ -1,0 +1,12 @@
+.home {
+  width: 100%;
+  position: relative;
+  overflow-y: auto;
+  /* scroll-behavior: smooth; */
+}
+.snap-btn {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background-color: rgba(7, 175, 119, 0.779) ;
+}

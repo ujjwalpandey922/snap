@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-y: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.content-map {
+  display: flex;
+  /* overflow-y: hidden; */
+}
